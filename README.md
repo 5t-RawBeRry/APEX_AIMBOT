@@ -1,3 +1,5 @@
+This repository is the open-source community version and does not provide an executable .exe program. If you need the .exe program, please go to this repository: https://github.com/ApexPluto/ApexPluto_AIMBOT.
+
 # Introduction
 This is a YOLOV7 based APEX and CSGO Aimbot
 ![apex](sample/apex.jpg)
