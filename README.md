@@ -4,11 +4,7 @@ This is a YOLOV7 based APEX and CSGO Aimbot
 ![csgo](sample/csgo.jpg)
 `Note: This is an educational purposes only software, do not use it for any commercial or illegal purposes, we will not be responsible for any unauthorized usage of this software` 
 
-If you like it, please give me a star, thanks!
-
-# Communication/exchange.
-- If you are a Chinese user, you can join QQ group 644134220 for timely communication and exchange.
-- If you have any questions about the project, you can raise them in the issues section.
+## If you like it, please give me a star, thanks!
 
 # Features
 - Model can differentiate the enemy and friend
@@ -57,3 +53,7 @@ Package .exe (apex) can [download here](https://cowtransfer.com/s/d6f008b24b7d4e
 
 # Annotate the dataset using current model
 `python utils/anno_imgs.py --data_dir your_dataset_dir --engine_path your_trt_engine_path`
+
+# Contact
+
+Our QQ group is 644134220 for technical communication
