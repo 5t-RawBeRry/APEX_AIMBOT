@@ -51,3 +51,7 @@ You can get the customized settings in `configs/apex.yaml` or `configs/csgo.yaml
 # Contact
 
 If you require an executable .exe program, please note that this repository is the open-source community version and does not offer one. However, you can obtain the .exe program by joining our QQ group with the ID `644134220`.
+
+# Support Author
+
+ETH/USDT (ETH/ERC20): 0x51d9a6F1323ec7ACbd015B02B4EaDa88a90473ef
