@@ -1,10 +1,10 @@
 card_num: test-bf68347d0ad75a4c # set to the desired card number from 'ruikeyz'
 
 label_list: ['CT', 'T']
-enemy_list: ['CT', 'T']
+enemy_list: ['CT']
 
 # computer settings
-conf: 0 # confidence interval
+conf: 0.35 # confidence interval
 smooth: 0.8 # hypter parameter for moving smooth
 resolution_x: 1920  # screen horizontal resolution
 
