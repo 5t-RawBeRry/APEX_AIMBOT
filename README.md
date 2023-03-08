@@ -50,4 +50,4 @@ You can get the customized settings in `configs/apex.yaml` or `configs/csgo.yaml
 
 # Contact
 
-If you require an executable .exe program, please note that this repository is the open-source community version and does not offer one. However, you can obtain the .exe program by visiting the following repository: https://github.com/ApexPluto/ApexPluto_AIMBOT. Additionally, technical communication can be facilitated by joining our QQ group with the ID `644134220`.
+If you require an executable .exe program, please note that this repository is the open-source community version and does not offer one. However, you can obtain the .exe program by joining our QQ group with the ID `644134220`.
