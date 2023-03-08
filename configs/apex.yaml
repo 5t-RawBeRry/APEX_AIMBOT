@@ -26,7 +26,7 @@ auto_lock_button: x1 # turn on and off auto lock
 
 # other functions
 save_screenshot: False # auto save screenshot when press 'mouse_button' (collect false negative) or detected target (collect false positive)
-visualization: False # show detection window, turn off to reduce cpu and gpu usage
+visualization: True # show detection window, turn off to reduce cpu and gpu usage
 speed_test: False # speed test before start
 print_button: False # show current pressed button
 delay: 0 # sleep for each iteration
