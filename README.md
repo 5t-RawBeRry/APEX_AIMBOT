@@ -1,4 +1,4 @@
-This repository is the open-source community version and does not provide an executable .exe program. If you need the .exe program, please go to this repository: https://github.com/ApexPluto/ApexPluto_AIMBOT.
+
 
 # Introduction
 This is a YOLOV7 based APEX and CSGO Aimbot
@@ -29,8 +29,7 @@ pip install pipwin
 pipwin install pycuda
 pip install -r requirements.txt
 ```
-Copy `cuda11.3 with tensorrt` to the base directory [download here](https://cowtransfer.com/s/d6f008b24b7d4e)
-
+Copy `cuda11.3 with tensorrt` to the base directory [download here](https://cowtransfer.com/s/83210de2f95c4d)
 
 # Export pt to onnx (This repo provides the onnx model, thus ignore)
 `python utils/export_pt_to_onnx.py --weights weights/best.pt --grid --end2end --simplify --topk-all 12 --iou-thres 0.65 --conf-thres 0.35 --img-size 640 640`
@@ -46,16 +45,9 @@ Running for csgo (default hold side button to auto aim and shoot):
 
 You can get the customized settings in `configs/apex.yaml` or `configs/csgo.yaml`, set your suitable `smooth` hyperparameter
 
-# Package
-`pyinstaller --key lhaksklasbjhklcvb apex.py`
-
-Copy `mouse_driver/ghub_mouse.dll` &nbsp; `mouse_driver/msdk.dll` &nbsp; `configs` &nbsp; `weights` &nbsp; `cuda_11.3` to the package directory `dist/apex`
-
-Package .exe (apex) can [download here](https://cowtransfer.com/s/d6f008b24b7d4e) (note: due to ruikeyz verification, ip outside china might not work)
-
 # Annotate the dataset using current model
 `python utils/anno_imgs.py --data_dir your_dataset_dir --engine_path your_trt_engine_path`
 
 # Contact
 
-Our QQ group is 644134220 for technical communication
+This repository is the open-source community version and does not provide an executable .exe program. If you need the .exe program, please go to this repository: https://github.com/ApexPluto/ApexPluto_AIMBOT, or you can join our QQ group is 644134220 for technical communication
