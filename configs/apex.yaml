@@ -1,6 +1,6 @@
-# set to the desired card number from 'ruikeyz'
-# 在下方'card_num'中输入卡密
-card_num:  
+# set to the desired card number from 'ruikeyz', note that there is a space at the beginning 
+# 在下方'card_num'中输入卡密, 注意留一个空格在: 后面
+card_num: xxxxxxxxxxxx
 
 # "label_list" contains the recognizable targets, while "enemy_list" contains the targets that need to be attacked.
 # 'label_list'中为可识别的目标，'enemy_list'中为需要攻击的目标
