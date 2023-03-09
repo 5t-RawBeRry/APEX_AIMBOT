@@ -29,7 +29,7 @@ pip install pipwin
 pipwin install pycuda
 pip install -r requirements.txt
 ```
-Copy `cuda11.3 with tensorrt` to the base directory [download here](https://cowtransfer.com/s/83210de2f95c4d)
+Install cuda11.3 with tensorrt following the [NVIDIA official instructions](https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html)
 
 # Export pt to onnx (This repo provides the onnx model, thus ignore)
 `python utils/export_pt_to_onnx.py --weights weights/best.pt --grid --end2end --simplify --topk-all 12 --iou-thres 0.65 --conf-thres 0.35 --img-size 640 640`

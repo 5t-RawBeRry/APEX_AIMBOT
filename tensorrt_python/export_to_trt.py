@@ -1,5 +1,5 @@
 import os
-os.environ["PATH"]+=f";cuda_11.3;cuda_11.3\\bin"
+os.environ["PATH"]+=f";v11.8;v11.8\\bin"
 import sys
 import logging
 import argparse

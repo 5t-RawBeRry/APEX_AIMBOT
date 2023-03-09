@@ -169,3 +169,4 @@ cython_debug/
 /cuda_11.3
 /env_copy
 package_copy
+v11.8
