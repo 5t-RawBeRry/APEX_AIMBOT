@@ -1,6 +1,5 @@
 import os
-current_dir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
-os.environ["PATH"]+=f";{os.path.join(current_dir,'cuda_11.3')};{os.path.join(current_dir,'cuda_11.3/bin')}"
+os.environ["PATH"]+=f";v11.8;v11.8\\bin;v11.8\\lib"
 import numpy as np
 import tensorrt as trt
 import time
