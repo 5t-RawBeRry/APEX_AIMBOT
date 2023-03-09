@@ -1,5 +1,6 @@
 import os
 os.environ["PATH"]+=f";v11.8;v11.8\\bin;v11.8\\lib"
+os.environ["CUDA_MODULE_LOADING"]="LAZY"
 import numpy as np
 import tensorrt as trt
 import time
