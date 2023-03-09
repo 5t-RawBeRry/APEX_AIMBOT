@@ -1,4 +1,4 @@
-card_num:  # set to the desired card number from 'ruikeyz'
+card_num: xxxxxxxxxxxxxxxx # set to the desired card number from 'ruikeyz'
 
 label_list: ['CT', 'T']
 enemy_list: ['CT']
@@ -22,7 +22,8 @@ pidy_kd: 0.24
 pidy_ki: 0.0
 
 # mouse settings
-mouse_button: x2 # pressing this button to start auto lock
+mouse_button_1: x2
+mouse_button_2: x2 # pressing this button to start auto lock
 auto_lock_button: x1 # turn on and off auto lock
 
 # other functions

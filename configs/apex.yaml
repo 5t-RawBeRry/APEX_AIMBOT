@@ -1,6 +1,6 @@
 # set to the desired card number from 'ruikeyz'
 # 在下方'card_num'中输入卡密
-card_num:  
+card_num: xxxxxxxxxxxxxxxx
 
 # "label_list" contains the recognizable targets, while "enemy_list" contains the targets that need to be attacked.
 # 'label_list'中为可识别的目标，'enemy_list'中为需要攻击的目标
@@ -21,14 +21,13 @@ resolution_x: 1920
 
 # mouse settings
 #鼠标设置
-# 'mouse_button' mouse lock button, press to control the mouse to move to the AI recognition box
-# 'mouse_button'鼠标锁定按键，按下后控制鼠标挪动至AI识别框内
-mouse_button: left 
+# 'mouse_button_n' mouse lock button, press to control the mouse to move to the AI recognition box, maximum 2 buttons
+# 'mouse_button_n'鼠标锁定按键，按下后控制鼠标挪动至AI识别框内, 最多可设置两个键
+mouse_button_1: left
+mouse_button_2: right 
 # 'auto_lock_button' mouse lock switch button, this switch controls whether the 'mouse_button' function takes effect
 # 'auto_lock_button'鼠标锁定开关按键，该开关控制'mouse_button'功能是否生效
 auto_lock_button: x1 
-
-
 
 # High-level configurations, if you are not sure what they mean, do not modify them
 # 高阶配置，如果你不清楚其中的含义，请不要修改它们

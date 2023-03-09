@@ -18,7 +18,7 @@ from multiprocessing import Process, Queue
 
 class AimBot:
     def __init__(self, config_path='configs/default.yaml', onnx_path='weights/best.onnx', engine_path='weights/best.trt'):
-        config = yaml.load(open(config_path, 'r'), Loader=yaml.FullLoader)
+        config = yaml.load(open(config_path, 'r', encoding='UTF-8'), Loader=yaml.FullLoader)
         self.args = argparse.Namespace(**config)
         self.login = verify_identity(self.args.card_num) # comment this line to ignore log in 
 
@@ -86,7 +86,7 @@ class AimBot:
                 print('---------------------自动瞄准已开启---------------------')
 
         # Press the left button to turn on auto aim
-        if button == getattr(Button, self.args.mouse_button) and self.auto_lock:
+        if button in [getattr(Button, self.args.mouse_button_1), getattr(Button, self.args.mouse_button_2)] and self.auto_lock:
             if pressed:
                 self.locking = True
                 print('已开启锁定...')
