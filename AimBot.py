@@ -20,7 +20,7 @@ class AimBot:
     def __init__(self, config_path='configs/default.yaml', onnx_path='weights/best.onnx', engine_path='weights/best.trt'):
         config = yaml.load(open(config_path, 'r', encoding='UTF-8'), Loader=yaml.FullLoader)
         self.args = argparse.Namespace(**config)
-        # self.login = verify_identity(self.args.card_num) # comment this line to ignore log in 
+        self.login = verify_identity(self.args.card_num) # comment this line to ignore log in 
 
         self.initialize_params()    
         self.build_trt_model(onnx_path, engine_path)
@@ -63,7 +63,7 @@ class AimBot:
 
     def build_trt_model(self, onnx_path, engine_path):
         if not os.path.exists(engine_path):
-            print('---------------------模型制作中，第一次等待时间较长(大约 10 mins)---------------------')
+            print('---------------------模型制作中，第一次等待时间较长(大约 15 mins), 完成后会有文字提示---------------------')
             export_to_trt(onnx=onnx_path, engine=engine_path)
 
     def initialize_camera(self):
