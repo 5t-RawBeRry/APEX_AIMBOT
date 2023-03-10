@@ -50,7 +50,7 @@ You can get the customized settings in `configs/apex.yaml` or `configs/csgo.yaml
 
 # Contact
 
-If you require an executable .exe program, you can obtain the .exe program by joining our QQ group with the ID `644134220`.
+If you require an executable .exe program, you can obtain the .exe program by joining our QQ group with the ID `644134220`. ![qq_group](sample/qq_group.jpg)
 
 # Support Author
 
